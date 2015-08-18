@@ -6,3 +6,6 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Perhaps you'll want to have the changes made by other user.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+I would use forks when somebody else created the repository. Clone, when I need to make a modification to that repository and branches when I'm going to work in a different aspect of the project (for example a new feature).
