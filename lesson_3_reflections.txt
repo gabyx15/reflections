@@ -9,3 +9,17 @@ Perhaps you'll want to have the changes made by other user.
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 I would use forks when somebody else created the repository. Clone, when I need to make a modification to that repository and branches when I'm going to work in a different aspect of the project (for example a new feature).
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+To see the changes others have made.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+...
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+This reflections are so annoying. 
+
+You just saw that the workflow when making changes in a separate branch is more complicated than working directly in master, especially when you need to stay up-to-date with changes others are making. Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch (different-oil, in our case), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.
